@@ -1,0 +1,49 @@
+.userInput {
+  position: fixed;
+  bottom: 50px;
+
+}
+.btn {
+  font-size: 1em;
+}
+#sendBtn {
+  display: none;
+}
+.typeArea {
+  margin-left: 3px;
+  font-size: 1em;
+  height: 41px;
+}
+
+.messBox1, .messBox2 {
+ 
+  border-radius: 50px;
+  border: solid black 1px;
+  text-align: center;
+  margin: 5px;
+
+}
+
+.messBox1 h5, .messBox2 h5{
+  padding-bottom: 2px;
+  border-bottom: solid black 1px;
+}
+
+.messBox1 {
+   background-color: #b1e0dd;
+}
+
+.messBox2 {
+   background-color: beige;
+}
+
+.main {
+  margin-bottom: 150px;
+}
+.onlineUsers {
+  border: solid 1px black;
+  position: fixed;
+  top: 200px;
+  right: 20px;
+}
+
