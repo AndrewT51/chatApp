@@ -79,11 +79,12 @@ function populateMessageBoard(boardObj){
 
 function removeUser(){
   users.once('value', function(snapshot){
-    let users = snapshot.val();
-    for(var key in users){
-      console.log(key)
-      if(users[key] === name){
-        usersRef.child(key).remove();
+    let user = snapshot.val();
+    for(var key in user){
+      console.log(user[key])
+
+      if(user[key] === currentUser){
+        users.child(key).remove();
       }
     }
   })
